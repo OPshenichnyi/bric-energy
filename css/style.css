@@ -1,0 +1,62 @@
+@import 'modern-normalize';
+
+:root {
+  /* Primary colors */
+  --color-primary: #2196F3;
+  --color-secondary: #FFC107;
+  --color-accent: #FF4081;
+
+  /* Neutral colors */
+  --color-background: #FFFFFF;
+  --color-surface: #F5F5F5;
+  --color-text: #212121;
+  --color-text-secondary: #757575;
+
+  /* Status colors */
+  --color-success: #4CAF50;
+  --color-warning: #FF9800;
+  --color-error: #F44336;
+  --color-info: #2196F3;
+
+  /* Shadows and opacity */
+  --color-shadow: rgba(0, 0, 0, 0.1);
+  --color-overlay: rgba(0, 0, 0, 0.5);
+
+  /* Fonts */
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Other settings */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: var(--color-overlay);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+} 
